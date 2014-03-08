@@ -262,7 +262,11 @@ mkdir $builddir ; cd $builddir
 echo libdir=/usr/lib > configparms
 echo slibdir=/lib >> configparms
 echo BUILD_CC=gcc >> configparms
+%ifarch mipsel
+build_CFLAGS="$BuildFlags -g -O1 $*"
+%else
 build_CFLAGS="$BuildFlags -g -O3 $*"
+%endif
 ../configure CC="$GCC" CXX="$GXX" CFLAGS="$build_CFLAGS" \
 	--prefix=%{_prefix} \
 	--enable-add-ons=nptl$AddOns --without-cvs $EnableKernel \

@@ -1,3 +1,6 @@
+* Sat Mar 08 2014 Davide Bettio <davide.bettio@ispirata.com> - 2.15
+- Do not build glibc for mipsel with -O3 enabled
+
 * Tue Dec 17 2013 Carsten Munk <carsten.munk@jollamobile.com> - 2.15
 - Add patch to sort out GCC 4.7/4.8 getconf breakage.
 
