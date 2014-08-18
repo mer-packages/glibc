@@ -1,3 +1,6 @@
+* Wed Aug 18 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 2.15
+- Upgrade to 2.15-0ubuntu10.6
+
 * Sat Mar 08 2014 Davide Bettio <davide.bettio@ispirata.com> - 2.15
 - Do not build glibc for mipsel with -O3 enabled
 
