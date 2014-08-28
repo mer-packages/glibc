@@ -22,7 +22,7 @@ Group: System/Libraries
 URL: http://www.eglibc.org/
 Source0: http://archive.ubuntu.com/ubuntu/pool/main/e/eglibc/eglibc_2.15.orig.tar.gz
 Source11: build-locale-archive.c
-Patch0: eglibc_2.15-0ubuntu10.6.diff.gz
+Patch0: eglibc_2.15-0ubuntu10.7.diff.gz
 Patch1: glibc-arm-alignment-fix.patch
 Patch2: glibc-arm-runfast.patch
 Patch3: glibc-2.13-no-timestamping.patch
