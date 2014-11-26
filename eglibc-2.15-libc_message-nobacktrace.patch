@@ -1,0 +1,11 @@
+--- eglibc-2.15.orig/sysdeps/unix/sysv/linux/libc_fatal.c	2011-05-15 15:22:50.000000000 +0300
++++ eglibc-2.15/sysdeps/unix/sysv/linux/libc_fatal.c	2014-11-26 15:38:35.410494136 +0200
+@@ -172,7 +172,7 @@
+ 
+   if (do_abort)
+     {
+-#if __OPTION_EGLIBC_BACKTRACE
++#if 0 /* __OPTION_EGLIBC_BACKTRACE */
+       if (do_abort > 1 && written)
+ 	{
+ 	  void *addrs[64];
