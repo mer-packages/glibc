@@ -22,7 +22,7 @@ Group: System/Libraries
 URL: http://www.eglibc.org/
 Source0: http://archive.ubuntu.com/ubuntu/pool/main/e/eglibc/eglibc_2.15.orig.tar.gz
 Source11: build-locale-archive.c
-Patch0: eglibc_2.15-0ubuntu10.7.diff.gz
+Patch0: eglibc_2.15-0ubuntu10.9.diff.gz
 Patch1: glibc-arm-alignment-fix.patch
 Patch2: glibc-arm-runfast.patch
 Patch3: glibc-2.13-no-timestamping.patch
@@ -34,7 +34,6 @@ Patch8: glibc-2.14.1-ldso-nodefaultdirs-option.5.diff
 Patch9: eglibc-2.15-mips-async-unwind.patch
 Patch10: eglibc-2.15-mips-no-n32-n64.patch
 Patch11: glibc-2.14-locarchive-fedora.patch
-Patch12: eglibc-2.15-disable-multilib.patch
 Patch13: eglibc-2.15-use-usrbin-localedef.patch
 Patch14: eglibc-2.15-fix-neon-libdl.patch
 Patch15: eglibc-2.15-shlib-make.patch
@@ -199,7 +198,6 @@ If unsure if you need this, don't install this package.
 %patch9 -p1
 %patch10 -p1
 %patch11 -p1
-%patch12 -p1
 %if 0%{?qemu_user_space_build}
 %patch13 -p1
 %patch14 -p1
