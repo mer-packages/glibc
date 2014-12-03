@@ -1,3 +1,7 @@
+* Wed Dec 03 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 2.15
+- Upgrade to 2.15-0ubuntu10.9
+- Fix CVE-2012-6656, CVE-2014-6040 and CVE-2014-7817
+
 * Wed Nov 26 2014 Slava Monich <slava.monichi@jolla.com> - 2.15
 - Disable backtrace in __libc_message
 
