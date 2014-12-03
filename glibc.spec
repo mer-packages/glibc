@@ -34,7 +34,6 @@ Patch8: glibc-2.14.1-ldso-nodefaultdirs-option.5.diff
 Patch9: eglibc-2.15-mips-async-unwind.patch
 Patch10: eglibc-2.15-mips-no-n32-n64.patch
 Patch11: glibc-2.14-locarchive-fedora.patch
-Patch12: eglibc-2.15-disable-multilib.patch
 Patch13: eglibc-2.15-use-usrbin-localedef.patch
 Patch14: eglibc-2.15-fix-neon-libdl.patch
 Patch15: eglibc-2.15-shlib-make.patch
@@ -199,7 +198,6 @@ If unsure if you need this, don't install this package.
 %patch9 -p1
 %patch10 -p1
 %patch11 -p1
-%patch12 -p1
 %if 0%{?qemu_user_space_build}
 %patch13 -p1
 %patch14 -p1
