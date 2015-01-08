@@ -1,3 +1,6 @@
+* Thu Jan 08 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 2.15
+- Avoid infinite loop in nss_dns getnetbyname (CVE-2014-9402)
+
 * Wed Dec 03 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 2.15
 - Upgrade to 2.15-0ubuntu10.9
 - Fix CVE-2012-6656, CVE-2014-6040 and CVE-2014-7817
