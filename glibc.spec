@@ -39,6 +39,7 @@ Patch14: eglibc-2.15-fix-neon-libdl.patch
 Patch15: eglibc-2.15-shlib-make.patch
 Patch16: glibc-2.15-confstr-strdup.patch
 Patch17: eglibc-2.15-libc_message-nobacktrace.patch
+Patch18: eglibc-2.15-avoid_infinite_loop.patch
 
 Provides: ldconfig
 # The dynamic linker supports DT_GNU_HASH
@@ -205,6 +206,7 @@ If unsure if you need this, don't install this package.
 %patch15 -p1
 %patch16 -p2 -R 
 %patch17 -p1
+%patch18 -p1
 
 # Not well formatted locales --cvm
 sed -i "s|^localedata/locale-eo_EO.diff$||g" debian/patches/series
