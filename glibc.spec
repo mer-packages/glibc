@@ -22,7 +22,7 @@ Group: System/Libraries
 URL: http://www.eglibc.org/
 Source0: http://archive.ubuntu.com/ubuntu/pool/main/e/eglibc/eglibc_2.15.orig.tar.gz
 Source11: build-locale-archive.c
-Patch0: eglibc_2.15-0ubuntu10.10.diff.gz
+Patch0: eglibc_2.15-0ubuntu10.11.diff.gz
 Patch1: glibc-arm-alignment-fix.patch
 Patch2: glibc-arm-runfast.patch
 Patch3: glibc-2.13-no-timestamping.patch
@@ -39,7 +39,6 @@ Patch14: eglibc-2.15-fix-neon-libdl.patch
 Patch15: eglibc-2.15-shlib-make.patch
 Patch16: glibc-2.15-confstr-strdup.patch
 Patch17: eglibc-2.15-libc_message-nobacktrace.patch
-Patch18: eglibc-2.15-avoid_infinite_loop.patch
 
 Provides: ldconfig
 # The dynamic linker supports DT_GNU_HASH
@@ -206,7 +205,6 @@ If unsure if you need this, don't install this package.
 %patch15 -p1
 %patch16 -p2 -R 
 %patch17 -p1
-%patch18 -p1
 
 # Not well formatted locales --cvm
 sed -i "s|^localedata/locale-eo_EO.diff$||g" debian/patches/series
