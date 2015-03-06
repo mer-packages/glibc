@@ -1,3 +1,8 @@
+* Wed Mar 04 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 2.15
+- Upgrade to 2.15-0ubuntu10.11
+- Fix CVE-2013-7423, CVE-2014-9402 (now included in 2.15-0ubuntu10.11),
+  CVE-2015-1472, CVE-2015-1473
+
 * Tue Jan 27 2015 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 2.15
 - Upgrade to 2.15-0ubuntu10.10
 - Fix CVE-2015-0235
